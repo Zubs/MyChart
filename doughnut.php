@@ -1,19 +1,26 @@
 <div class="col-6">
     <div class="card">
-      <canvas id="chart2"></canvas>
+      <canvas id="chart5"></canvas>
       <script>
-        var ctx = document.getElementById('chart2').getContext('2d');
+        var ctx = document.getElementById('chart5').getContext('2d');
         var chart = new Chart(ctx, {
             // The type of chart we want to create
-            type: 'line',
+            type: 'doughnut',
 
             // The data for our dataset
             data: {
                 labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
                 datasets: [{
                     label: 'My First dataset',
-                    backgroundColor: 'rgb(255, 99, 132)',
-                    borderColor: 'rgb(255, 99, 132)',
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: 'white',
                     data: [50, 35, 30, 37, 45, 30, 45]
                 }]
             },

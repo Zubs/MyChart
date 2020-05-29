@@ -15,6 +15,9 @@
 		<?php include 'bar.php'; ?>
 		<?php include 'line.php'; ?>
 		<?php include 'pie.php'; ?>
+		<?php include 'radar.php'; ?>
+		<?php include 'doughnut.php'; ?>
+		<?php include 'polar.php'; ?>
 	</div>
 </body>
 </html>
