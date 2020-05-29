@@ -1,5 +1,5 @@
 <div class="col-6">
-  <div class="card">
+  <div class="card text-center">
     <canvas id="chart1"></canvas>
     <script>
     var ctx = document.getElementById('chart1').getContext('2d');
@@ -31,16 +31,9 @@
                 borderWidth: 1
             }]
         },
-        options: {
-            scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true
-                    }
-                }]
-            }
-        }
+        options: {}
     });
     </script>
+    <h2 class="card-header mt-5">Bar Chart</h2>
   </div>
 </div>

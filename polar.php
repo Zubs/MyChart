@@ -1,5 +1,5 @@
 <div class="col-6">
-    <div class="card">
+    <div class="card text-center">
       <canvas id="chart6"></canvas>
       <script>
         var ctx = document.getElementById('chart6').getContext('2d');
@@ -29,5 +29,6 @@
             options: {}
         });
       </script>
+      <h2 class="card-header mt-5">Polar Area</h2>
     </div>
 </div>

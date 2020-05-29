@@ -1,5 +1,5 @@
 <div class="col-6">
-    <div class="card">
+    <div class="card text-center">
       <canvas id="chart3"></canvas>
       <script>
         var ctx = document.getElementById('chart3').getContext('2d');
@@ -29,5 +29,6 @@
             options: {}
         });
       </script>
+      <h2 class="card-header mt-5">Pie Chart</h2>
     </div>
 </div>

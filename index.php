@@ -6,7 +6,7 @@
   	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   	<style type="text/css">
   		canvas {width: 200px; height: 200px; margin-top: 10px;}
-  		.card {margin-top: 10px;}
+  		.card {margin-top: 20px;}
   	</style>
 </head>
 <body class="container mb-5">
@@ -18,6 +18,8 @@
 		<?php include 'radar.php'; ?>
 		<?php include 'doughnut.php'; ?>
 		<?php include 'polar.php'; ?>
+		<?php include 'bubble.php'; ?>
+		<?php include 'scatter.php'; ?>
 	</div>
 </body>
 </html>

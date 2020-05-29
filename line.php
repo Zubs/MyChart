@@ -1,5 +1,5 @@
 <div class="col-6">
-    <div class="card">
+    <div class="card text-center">
       <canvas id="chart2"></canvas>
       <script>
         var ctx = document.getElementById('chart2').getContext('2d');
@@ -22,5 +22,6 @@
             options: {}
         });
       </script>
+      <h2 class="card-header mt-5">Line Chart</h2>
     </div>
 </div>
