@@ -33,7 +33,7 @@
 	</div>
 	<div class="card text-center">
  	    <div class="card-body">
-		    <p class="card-text"><a href="https://github.com/Zubs" target="_blank"><span class="fa fa-github"></span></a></p>
+		    <p class="card-text"><a href="https://github.com/Zubs" target="_blank"><i class="fab fa-github"></i></a> <a href="https://twitter.com/AwedaIdris" target="_blank"><i class="fab fa-twitter"></i></a> <a href="https://web.facebook.com/AwedaIdris" target="_blank"><i class="fab fa-facebook"></i></a> <a href="https://www.instagram.com/awedazubair/" target="_blank"><i class="fab fa-instagram"></i></a> <a href="https://www.linkedin.com/in/idris-aweda-zubair-5433121a3/" target="_blank"><i class="fab fa-linkedin"></i></a></p>
   	   </div>
   	   <div class="card-footer text-muted">
     		2020 &copy; Zubair Idris Aweda
