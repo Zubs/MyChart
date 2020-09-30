@@ -33,7 +33,7 @@
 	</div>
 	<div class="card text-center">
  	    <div class="card-body">
-		    <p class="card-text"><i class="fa fa-bell"></i></p>
+		    <p class="card-text"><a href="https://github.com/Zubs" target="_blank"><span class="fa fa-github"></span></a></p>
   	   </div>
   	   <div class="card-footer text-muted">
     		2020 &copy; Zubair Idris Aweda
