@@ -11,6 +11,6 @@ The charts in the page where made with chart.js, a JavaScript library for data v
 An article explaining how to make these charts is in the works already.
 
 # Live Link
-**[CHARTSJS](https://mychartjs.herokuapp.com/)**
+**[CHART JS](https://mychartjs.herokuapp.com/)**
 
 ![charts](charts.png)
