@@ -17,10 +17,14 @@
   	<style type="text/css">
   		canvas {width: 200px; height: 200px; margin-top: 10px;}
   		.card {margin-top: 20px;}
+		a{
+			color:black;
+		}
+		
   	</style>
 </head>
 <body class="container mb-5">
-	<h1>Hello</h1>
+	<h1 style='text-align:center;'> CHARTS </h1>
 	<div class="row mb-5">
 		<?php include 'bar.php'; ?>
 		<?php include 'line.php'; ?>
